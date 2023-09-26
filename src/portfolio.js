@@ -196,15 +196,16 @@ const bigProjects = {
     projectDesc:
       "Developed a web application for efficient employee effort logging and tracking, strengthened security by implementing SHA-256 password hashing and •	Integrated Flask-Mail for OTP-based user verification",    
   },
-  {
-    projectName: "Geo-spatial Data Processing  Apache Spark | Scala | Docker |PostgreSQL ",
-    projectDesc:
-      "Analysed over 9K Taxi Trip spatial-temporal data points to identify statistically significant spatial hot spots and implemented a model using spatial and textual searching to identify over 5000 business activities and locations in cities",   
-  },
+  
   {
     projectName: "Nearby Events | Node JS | Fuseki Server | SparQL	",
     projectDesc:
       "Scraped nearby events from Google events API and extracted structured data using SparQL and modeled database to improve data organization and deployed a user-friendly NodeJS app on Amazon EC2",    
+  },
+  {
+    projectName: "Soccer Tournament Web Application | JavaScript | React | Express.js | Node.js | MongoDB  ",
+    projectDesc:
+      "Developed a soccer events web application enabling users to access match detail and implemented a scheduling algorithm using JavaScript and utilized cloud MongoDB for efficient data managements",   
   },
   ],
   display: true // Set false to hide this section, defaults to true
