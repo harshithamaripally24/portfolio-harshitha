@@ -203,7 +203,7 @@ const bigProjects = {
       "Scraped nearby events from Google events API and extracted structured data using SparQL and modeled database to improve data organization and deployed a user-friendly NodeJS app on Amazon EC2",    
   },
   {
-    projectName: "Soccer Tournament Web Application | JavaScript | React | Express.js | Node.js | MongoDB  ",
+    projectName: "Soccer Tournament Web App | JavaScript | React | Express.js | Node.js | MongoDB  ",
     projectDesc:
       "Developed a soccer events web application enabling users to access match detail and implemented a scheduling algorithm using JavaScript and utilized cloud MongoDB for efficient data managements",   
   },
