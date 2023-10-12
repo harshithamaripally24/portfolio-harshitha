@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Harshitha Maripally",
-  title: "Hello, I'm Harshitha Maripally",
+  title: "Harshitha Maripally Portfolio",
   subTitle: (
-    "A passionate Full Stack Software Developer with experience of building Web and Mobile applications with JavaScript / Angular / Spring Boot and other cool libraries and frameworks."
+    "I am a passionate Full Stack Software Developer with experience of building Web and Mobile applications with JavaScript / Angular / Spring Boot and other cool libraries and frameworks."
   ),
  
   displayGreeting: true // Set false to hide this section, defaults to true
