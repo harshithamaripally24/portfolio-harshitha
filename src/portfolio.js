@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Harshitha Maripally",
-  title: "Harshitha Maripally Portfolio",
+  title: "Hi, I'm Harshitha",
   subTitle: (
     "I am a passionate Full Stack Software Developer with experience of building Web and Mobile applications with JavaScript / Angular / Spring Boot and other cool libraries and frameworks."
   ),
@@ -43,9 +43,9 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Full stack developer who wants to explore every tech stack",
+  title: "What I use",
   skills: [
+
   
   ],
 
@@ -91,6 +91,9 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"    }
    
   ],
   display: false // Set false to hide this section, defaults to true
@@ -106,6 +109,13 @@ const educationInfo = {
       logo: require("./assets/images/asuLogo.png"),
       subHeader: "Master of Science in Software Engineering",
       duration: "January 2022 - December 2023"
+
+    },
+    {
+      schoolName: "Jawaharlal Nehru Technological University",
+      logo: require("./assets/images/jntu.png"),
+      subHeader: "Bachelor of Technology in Information Technology",
+      duration: "August 2016 - September 2020"
 
     }
   ]
@@ -134,14 +144,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineering Intern",
+      role: "Software Engineer Intern",
       company: "Chartbeat",
       companylogo: require("./assets/images/chartbeatLogo.png"),
       date: "June 2023 – Aug 2023",
       // desc: "Chartbeat provides Content Analytics and Insights for Digital Publishing.",
       descBullets: [
-        "Developed reusable components in ReactJS reducing code duplication",
-        "Conducted functional, regression, performance, and integration testing"
+        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature",
+        
+        "Conducted functional, regression, and integration testing",
+
       ]
     },
     {
@@ -152,6 +164,7 @@ const workExperiences = {
       descBullets: [
         "Created RESTful web services using Spring Boot framework, built responsive user interfaces utilizing Angular",
         "Modularized old code bases of Accounting application to Angular framework"
+        
       ]
     },
     {
@@ -160,8 +173,8 @@ const workExperiences = {
       companylogo: require("./assets/images/valueLabs.jpeg"),
       date: "Sep 2019 – Mar 2020",
       descBullets: [
-        "Utilized Angular and Node JS to create web applications with POSTGRESQL database integration",
-        "Modeled APIs to create endpoints, prepared test scripts, performed functional testing"
+        "Utilized JavaScript with Node.js for backend and Angular for frontend development, integrating with a PostgreSQL database",
+        "Modeled APIs to create endpoints, prepared test scripts, performed functional testing",
       ]
     },
 
@@ -171,8 +184,8 @@ const workExperiences = {
       companylogo: require("./assets/images/olcademy.jpeg"),
       date: "Jun 2018 – Sep 2018",
       descBullets: [
-        "Built quiz pages and a messenger user interface using JavaScript, HTML, CSS and bootstrap",
-        "Identified and troubleshot technical issues, and improved website functionality and user experience"
+        "Built quiz pages and a messenger user interface using JavaScript, HTML, CSS and bootstrap to ensure responsive web design",
+        "Identified and troubleshot technical issues, and improved website functionality and user experience",
       ]
     }
   ]
@@ -194,18 +207,18 @@ const bigProjects = {
   projects: [{
     projectName: "Effort Logger | Python | Flask | MySQL ",
     projectDesc:
-      "Developed a web application for efficient employee effort logging and tracking, strengthened security by implementing SHA-256 password hashing and •	Integrated Flask-Mail for OTP-based user verification",    
+      "Developed a web application for efficient employee effort logging and tracking. Strengthened security by implementing SHA-256 password hashing and integrated Flask-Mail for OTP-based user verification"   
   },
   
   {
     projectName: "Nearby Events | Node JS | Fuseki Server | SparQL	",
     projectDesc:
-      "Scraped nearby events from Google events API and extracted structured data using SparQL and modeled database to improve data organization and deployed a user-friendly NodeJS app on Amazon EC2",    
+      "Extracted structured data using SparQL, modeled database to improve data organization and deployed a user-friendly NodeJS app on Amazon EC2",    
   },
   {
     projectName: "Soccer Tournament Web App | JavaScript | React | Express.js | Node.js | MongoDB  ",
     projectDesc:
-      "Developed a soccer events web application enabling users to access match detail and implemented a scheduling algorithm using JavaScript and utilized cloud MongoDB for efficient data managements",   
+      "Developed a soccer events web application enabling users to access match details using React for frontend development. Implemented a scheduling algorithm using JavaScript and utilized cloud MongoDB for efficient data management",   
   },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -217,7 +230,8 @@ const bigProjects = {
 const achievementSection = {
 
  
-  display: false // Set false to hide this section, defaults to true
+  display: false
+   // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
