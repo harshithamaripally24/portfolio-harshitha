@@ -182,7 +182,7 @@ const workExperiences = {
       role: "Web Development Intern",
       company: "Olcademy",
       companylogo: require("./assets/images/olcademy.jpeg"),
-      date: "Jun 2018 – Sep 2018",
+      date: "Jun 2018 – Oct 2018",
       descBullets: [
         "Built quiz pages and a messenger user interface using JavaScript, HTML, CSS and bootstrap to ensure responsive web design",
         "Identified and troubleshot technical issues, and improved website functionality and user experience",
