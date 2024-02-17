@@ -277,12 +277,13 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Reach out to me!"),
+  title: emoji("Contact me!"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all. "
     ,
     
   email_address: "harshithamaripally2408@gmail.com",
+  locationlogo: require("./assets/images/location.png"),
   location:"Tempe, Arizona",
   subsection: "Open for opportunities: Yes"
 };

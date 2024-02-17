@@ -22,23 +22,33 @@
   margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
-  color: $subTitle;
+  color: black;
   text-decoration: none;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: $textColor;
+  color: black;
   text-shadow: 2px 1px 2px $contactDetailHoverTS;
   transition: all 0.3s;
 }
 
-.contact-subtitle {
-   /* No text transformation */
 
+.location-pin {
+  width: 22px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Adjust spacing between pin and location text */
+  vertical-align: middle; /* Align vertically with text */
+  color: white;
+  stroke: currentColor
 }
 
-
+.location {
+  width: 19px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Adjust spacing between pin and location text */
+  vertical-align: middle; /* Align vertically with text */
+}
 .contact-text-div {
   margin-top: 1.5rem;
 }
@@ -80,11 +90,12 @@
   .contact-text-div {
     text-align: center;
     margin-top: 1.5rem;
-  }
-
+  } 
  
-
-  .contact-image-div {
-    display: none;
-  }
+}
+.contact-image-div {
+  width: 200px; /* Adjust width and height to your preference */
+  height: 200px;
+  border-radius: 50%; /* Makes the container circular */
+  overflow: hidden; /* Clips the image to the container's shape */
 }
