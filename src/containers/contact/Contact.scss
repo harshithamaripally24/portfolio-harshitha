@@ -20,7 +20,7 @@
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
@@ -34,8 +34,10 @@
 }
 
 .contact-subtitle {
-  text-transform: uppercase;
+   /* No text transformation */
+
 }
+
 
 .contact-text-div {
   margin-top: 1.5rem;
@@ -70,16 +72,17 @@
     line-height: normal;
     text-align: center;
   }
+  .contact-detail,
+  .contact-detail-email {
+    font-size: 20px;
+  }
 
   .contact-text-div {
     text-align: center;
     margin-top: 1.5rem;
   }
 
-  .contact-detail,
-  .contact-detail-email {
-    font-size: 20px;
-  }
+ 
 
   .contact-image-div {
     display: none;

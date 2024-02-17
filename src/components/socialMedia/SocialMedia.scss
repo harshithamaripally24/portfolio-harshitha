@@ -40,6 +40,12 @@
   background-color: $github;
 }
 
+.leetcode i {
+  background-color: $leetcode;
+  position: relative;
+  top: 2cm; /* 1 centimeter down */
+  left: 2cm; 
+}
 .gitlab i {
   background-color: $gitlab;
 }
@@ -85,6 +91,8 @@
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

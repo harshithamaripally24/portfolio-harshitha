@@ -24,6 +24,7 @@ export default function Contact() {
             >
               {contactInfo.subtitle}
             </p>
+
             <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
@@ -47,6 +48,10 @@ export default function Contact() {
               >
                 {contactInfo.email_address}
               </a>
+              
+              <p className={isDark ? "dark-mode" : ""}>{contactInfo.location}</p>
+              <p className={isDark ? "dark-mode" : ""}>{contactInfo.subsection}</p>
+
               <br />
               <br />
               <SocialMedia />

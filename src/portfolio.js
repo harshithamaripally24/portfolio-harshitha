@@ -16,16 +16,17 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: false // Set to false to use static SVG
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Harshitha Maripally",
   title: "Hi, I'm Harshitha",
   subTitle: (
-    "I am a passionate Full Stack Software Developer with experience of building Web and Mobile applications with JavaScript / Angular / Spring Boot and other cool libraries and frameworks."
+    "I am a Software Engineer with experience of building Web and Mobile applications with Python / Javascript / Angular / Spring Boot and other cool libraries and frameworks."
   ),
- 
+  resumeLink:
+  "https://drive.google.com/file/d/1d1XaTI15-cWP2FS0v7KxOI2UA4zao0yI/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,6 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/harshithamaripally24",
   linkedin: "https://www.linkedin.com/in/harshitha-maripally/",
   gmail: "hmaripal@asu.edu",
+  leetcode: "https://leetcode.com/harshitha2408/",
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -43,17 +46,32 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I use",
+  title: "What I do",
+  subTitle: "I am a passionate full stack developer. Explore my skills below",
   skills: [
+    emoji(
+      "⚡  Develop highly interactive Front end / User Interfaces for web applications"
+    ),
+    emoji("⚡ Build restful webservices to facilitate seamless communication between front-end and back-end components."),
+    emoji(
+      "⚡ Implement test-driven development methodologies to maintain code quality and reliability"
 
-  
+    )
   ],
+  
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    // {
+    //   skillName: "java",
+    //   fontAwesomeClassname: "fab fa-java-alt"    },
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -83,20 +101,17 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "fab fa-git-alt"    }
-   
+      fontAwesomeClassname: "fab fa-git-alt"
+    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -124,15 +139,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -150,9 +169,8 @@ const workExperiences = {
       date: "June 2023 – Aug 2023",
       // desc: "Chartbeat provides Content Analytics and Insights for Digital Publishing.",
       descBullets: [
-        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature",
-        
-        "Conducted functional, regression, and integration testing",
+        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature" ,"Identified and resolved critical frontend bugs related to UI elements and data fetching on the product dashboard",
+        "Conducted functional, regression, and integration testing"
 
       ]
     },
@@ -207,7 +225,13 @@ const bigProjects = {
   projects: [{
     projectName: "Effort Logger | Python | Flask | MySQL ",
     projectDesc:
-      "Developed a web application for efficient employee effort logging and tracking. Strengthened security by implementing SHA-256 password hashing and integrated Flask-Mail for OTP-based user verification"   
+      "Developed a web application for efficient employee effort logging and tracking. Strengthened security by implementing SHA-256 password hashing and integrated Flask-Mail for OTP-based user verification",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/harshithamaripally24/CSE563-SPRING-2023"
+        }
+      ]   
   },
   
   {
@@ -253,9 +277,16 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me"),
-  email_address: "hmaripal@asu.edu"
+  title: emoji("Reach out to me!"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all. "
+    ,
+    
+  email_address: "harshithamaripally2408@gmail.com",
+  location:"Tempe, Arizona",
+  subsection: "Open for opportunities: Yes"
 };
+
 
 // Twitter Section
 
@@ -264,7 +295,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
