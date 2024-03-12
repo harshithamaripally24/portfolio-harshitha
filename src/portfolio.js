@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/harshithamaripally24",
   linkedin: "https://www.linkedin.com/in/harshitha-maripally/",
-  gmail: "hmaripal@asu.edu",
+  gmail: "harshithamaripally2408@gmail.com",
   leetcode: "https://leetcode.com/harshitha2408/",
   
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -169,7 +169,7 @@ const workExperiences = {
       date: "June 2023 – Aug 2023",
       // desc: "Chartbeat provides Content Analytics and Insights for Digital Publishing.",
       descBullets: [
-        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature" ,"Identified and resolved critical frontend bugs related to UI elements and data fetching on the product dashboard",
+        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature." ,"Identified and resolved critical frontend bugs related to UI elements and data fetching on the product dashboard",
         "Conducted functional, regression, and integration testing"
 
       ]
@@ -180,8 +180,8 @@ const workExperiences = {
       companylogo: require("./assets/images/dbs.png"),
       date: "Sep 2020 – Dec 2021",
       descBullets: [
-        "Created RESTful web services using Spring Boot framework, built responsive user interfaces utilizing Angular",
-        "Modularized old code bases of Accounting application to Angular framework"
+        "Built RESTful web services using Java-based Spring framework, and engineered responsive user interfaces utilizing Angular",
+        "Modularized old code bases of Accounting application from Angular JS to Angular framework"
         
       ]
     },
