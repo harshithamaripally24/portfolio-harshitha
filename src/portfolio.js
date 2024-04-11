@@ -163,13 +163,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "GEICO",
+      companylogo: require("./assets/images/Geico.jpg"),
+      date: "2024 – Present",
+      descBullets: [
+        "Developed, implemented, and maintained core software components using C# .NET aligning closely with business needs and user requirements." ,"Implemented data fixes to conduct data control cleanup to enhance data accuracy",
+        "Facilitated use case discussions and planning sessions for the transition to GO lang"
+
+      ]
+    },
+    {
       role: "Software Engineer Intern",
       company: "Chartbeat",
       companylogo: require("./assets/images/chartbeatLogo.png"),
       date: "June 2023 – Aug 2023",
-      // desc: "Chartbeat provides Content Analytics and Insights for Digital Publishing.",
       descBullets: [
-        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature." ,"Identified and resolved critical frontend bugs related to UI elements and data fetching on the product dashboard",
+        "Developed reusable components in ReactJS reducing code duplication and contributed to the development of a user specific dropdown feature." ,"Identified and resolved critical bugs related to UI elements and data fetching on the product dashboard",
         "Conducted functional, regression, and integration testing"
 
       ]
