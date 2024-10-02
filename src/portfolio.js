@@ -26,7 +26,7 @@ const greeting = {
     "I am a Software Engineer with experience of building Web and Mobile applications with Python / Javascript / Angular / Spring Boot and other cool libraries and frameworks."
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1d1XaTI15-cWP2FS0v7KxOI2UA4zao0yI/view?usp=drive_link",
+  "https://drive.google.com/file/d/1A-jSd0zPrS_bAO4eW7fqVIfSgdpnTsCc/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
